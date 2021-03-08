@@ -1,7 +1,7 @@
 const RatonProblem = require('./RatonProblem');
 const RatonAgent = require('./RatonAgent');
 
-let myProblem = new RatonProblem({ maxIterations: 100 });
+let myProblem = new RatonProblem({ maxIterations: 20});
 
 myProblem.addAgent("Smith", RatonAgent, {raton: { x: 1, y: 7 }, queso: {x: 6, y: 6}});
 myProblem.solve([
