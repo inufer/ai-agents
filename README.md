@@ -23,9 +23,11 @@ Juan camilo rosero 1746848
 
 ``` 
 
-node src/ratonlab_simple/main1.js
-node src/ratonlab_meta/main1.js
-node src/ratonlab_entorno/main1.js
+1. Correr el punto uno:  node src/ratonlab_simple/main1.js
+2. Correr el punto dos A:  node src/ratonlab_entorno/main1.js
+2. Correr el punto dos B:  node src/ratonlab_entorno/main2.js
+3. Correr el punto tres:  node src/ratonlab_meta/main1.js
+
 
 ``` 
 
