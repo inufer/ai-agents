@@ -1,3 +1,4 @@
+
 # ai-agents
 
 First attemp to create a multi agent framework for the lecture: Introducción a la inteligencia Artificial. 
@@ -5,37 +6,48 @@ First attemp to create a multi agent framework for the lecture: Introducción a 
 ## Install
 
 ``` bash
-git clone https://github.com/andcastillo/ai-agents.git
+git clone https://github.com/JuanK120/ai-agents.git 
 cd ai-agents
 npm install 
 ```
+## Members
+
+``` 
+Maria fernanda arroyo 1740443
+Jose david erazo 1742505
+Juan camilo rosero 1746848
+
+``` 
 
 ## Run the example
 
-node src/example/main.js
+``` 
 
-## Output
+node src/ratonlab_simple/main1.js
+node src/ratonlab_meta/main1.js
+node src/ratonlab_entorno/main1.js
+
+``` 
+
+## Output example
 
 ```
-Winner Smith
-[ { agentID: 'Smith', action: 'DOWN' },
+agent: Smith
+[
+  { agentID: 'Smith', action: 'DOWN' },
   { agentID: 'Smith', action: 'RIGHT' },
   { agentID: 'Smith', action: 'RIGHT' },
-  { agentID: 'Smith', action: 'LEFT' },
+  { agentID: 'Smith', action: 'UP' },
   { agentID: 'Smith', action: 'RIGHT' },
-  { agentID: 'Smith', action: 'LEFT' },
-  { agentID: 'Smith', action: 'RIGHT' },
-  { agentID: 'Smith', action: 'LEFT' },
-  { agentID: 'Smith', action: 'RIGHT' },
-  { agentID: 'Smith', action: 'LEFT' },
-  { agentID: 'Smith', action: 'RIGHT' },
-  { agentID: 'Smith', action: 'LEFT' } ]
-[ [ 0, 0, 0, 0 ],
-  [ 0, 1, 1, -1 ],
-  [ 0, 1, 0, 0 ],
-  [ 0, 'X', 0, 1 ] ]
-```
-  
-  As we still having the -1 in the problem matrix, we assume that agent could not solve the given problem.
-  
-  Now, try it yoursel!!!!
+  { agentID: 'Smith', action: 'UP' },
+  { agentID: 'Smith', action: 'TAKE' }
+]
+[ 0, 0, 0, 0 ]
+[ 0, 1, 1, 'X' ]
+[ 0, 1, 0, 0 ]
+[ 0, 0, 0, 1 ]
+
+Agent could solve this problem :)
+
+
+``` 
